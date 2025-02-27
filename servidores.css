@@ -1,0 +1,55 @@
+body{
+    background-color: cornflowerblue;
+}
+header{
+    font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        text-shadow: blue 4px 1px;
+}
+nav{
+    text-align: center;
+    background-color: lightblue;
+    border: dotted 5px blue;
+}
+
+span{
+    border: blue 2px solid;
+    padding: 2px;
+    color: white;
+    background-color: cornflowerblue;
+}
+span:hover{
+    background-color: purple;
+}
+main{
+    color: blue;
+    text-align: center;
+}
+h2{
+    text-decoration: underline;
+}
+
+div{
+    text-align: left;
+    margin-left: 47%;
+}
+
+ol.o1{
+    font-weight: bold;
+}
+
+ol.o2{
+    list-style-type: upper-roman;
+    font-weight: lighter;
+    line-height: 40px;
+    text-align: left;
+}
+ol.o3{
+    list-style-type: upper-roman;
+    font-weight: lighter;
+    line-height: 40px;
+    text-align: left; 
+}

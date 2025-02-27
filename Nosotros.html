@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Luca Signoli">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hardware el grao</title>
+    <link rel="stylesheet" href="Nosotros.css">
+    <script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            var nombre = document.getElementById('nombre').value;
+            var apellidos = document.getElementById('apellidos').value;
+            alert('Bienvenido ' + nombre + ' ' + apellidos);
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>HARDWARE EL GRAO </h1>
+    </header>
+    <nav>
+        <p><span>PC sobremesa</span> <span>Portátiles</span> <span><a href="file:///home/lucsigmag/Escritorio/Examen%20Entrega%20TIPO%20B/servidores.html">Servidores</a></span> <span><a href="file:///home/lucsigmag/Escritorio/Examen%20Entrega%20TIPO%20B/Nosotros.html">Nosotros</a></span></p>
+    </nav>
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d56151.5607701769!2d-0.37306082376841077!3d39.46223019796017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0xd60485c30e34a19%3A0x98f8d2cea8daa636!2sC%2F%20d&#39;Escalante%2C%209%2C%20Poblats%20Mar%C3%ADtims%2C%2046011%20Val%C3%A8ncia%2C%20Valencia!3m2!1d39.462176199999995!2d-0.3318679!5e1!3m2!1ses!2ses!4v1740660056154!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>Nuestra familia tiene una larga historia en el Grao, motor de la innovación en Valencia. Desde 1985 nuetra familia se dedica a la venta y distribución de hardware en La Marina y toda la ciudad de Valencia, cuando ademas con distribución de servidores de ultima generación.
+            <hr>
+            <form action="">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <p>
+                <label for="opcion1">Producto:</label>
+                <input type="radio" id="opcion1" name="opcion" required>
+                <label for="opcion2">PC:</label>
+                <input type="radio" id="opcion2" name="opcion" required>
+                <label for="opcion3">Portátiles:</label>
+            </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+           
+        </div>
+    </main>
+    </body>
+</html>
+            <form action=""></form>
+        </div>
+    </main>
+    </body>
+</html>

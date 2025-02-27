@@ -1,0 +1,37 @@
+body{
+    background-color: cornflowerblue;
+}
+header{
+    font-family: "Poppins", serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        text-shadow: blue 4px 1px;
+}
+
+nav{
+    text-align: center;
+    background-color: lightblue;
+    border: dotted 5px blue;
+}
+
+span{
+    border: blue 2px solid;
+    padding: 2px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+span:hover{
+    background-color: purple;
+}
+
+div{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    float: right;
+    padding-bottom: 130px;
+}
